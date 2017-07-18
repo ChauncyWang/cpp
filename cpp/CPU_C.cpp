@@ -3,7 +3,7 @@
 //
 
 #include <cstring>
-#include "CPU.h"
+#include "CPU_C.h"
 
 void CPU::execCpuId(int id) {
     __asm__ __volatile__("movl %4,%%eax;"

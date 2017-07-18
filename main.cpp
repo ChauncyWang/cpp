@@ -1,5 +1,5 @@
 #include<iostream>
-#include "CPU.h"
+#include "cpp/CPU_C.h"
 
 using namespace std;
 int main() {
