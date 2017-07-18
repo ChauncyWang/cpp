@@ -1,6 +1,10 @@
-#include <iostream>
+#include<iostream>
+#include "CPU.h"
 
+using namespace std;
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    CPU cpu;
+    cout << cpu.getVID() << endl;
+    cout << cpu.getBrand() << endl;
     return 0;
 }
